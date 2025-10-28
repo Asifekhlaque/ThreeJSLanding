@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <link rel="stylesheet" href="./src/style.css">
+</head>
+
+<body class="overflow-x-hidden">
+  <div class="circle"></div>
+  <div class="w-full font-[Helvetica Now Display]">
+    <nav class="flex justify-between items-center px-4 py-2">
+      <h3 class="text-lg font-semibold tracking-tight">Three<span class="text-yellow-400"> Js</span></h3>
+
+      <div class="flex items-center gap-6">
+        <a class="text-sm hover:text-blue-600 transition-colors" href="#">Home</a>
+        <a class="text-sm hover:text-blue-600 transition-colors" href="#">About</a>
+        <a class="text-sm hover:text-blue-600 transition-colors" href="#">Services</a>
+        <a class="text-sm hover:text-blue-600 transition-colors" href="#">Contact</a>
+      </div>
+    </nav>
+
+    <div class="landing w-full h-[200vh]">
+      <div class="w-full h-screen sticky top-0 left-0">
+        <h1
+          class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 whitespace-nowrap text-8xl font-semibold tracking-tight pointer-events-none">
+          Design.Develop.Deploy</h1>
+        <p class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 
+          opacity-0 pointer-events-none
+          text-2xl text-center tracking-tight leading-loose">A creative agency with solid expertise
+          in design & web development.
+          <br>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis ipsam veniam dignissimos similique ullam voluptate temporibus dolore rem saepe possimus, deserunt enim illum iste corrupti a dolor natus, laboriosam iusto!
+        </p>
+        <canvas class="pointer-events-none z-[-1]" id="canvas"></canvas>
+      </div>
+
+    </div>
+    <!-- <div class="w-full h-screen bg-black">
+
+    </div> -->
+
+  </div>
+
+
+  <script type="module" src="./src/main.js"></script>
+</body>
+
+</html>
